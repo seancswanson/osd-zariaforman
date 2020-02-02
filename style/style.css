@@ -1,0 +1,132 @@
+body {
+  background-color: #62a2c1;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60px 1fr 100px;
+  height: 100vh;
+}
+
+header {
+  z-index: 999;
+  background-color: white;
+  height: 100%;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+}
+
+main {
+  height: 100%;
+}
+
+footer {
+  height: 100%;
+}
+
+.header-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+.hero-wrapper {
+  display: flex;
+  height: 100%;
+  background: url('../assets/hero.jpg') bottom center no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.hero-header {
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.button-container {
+  display: flex;
+  width: 400px;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+
+.button {
+  background: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 3px double rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.button:hover {
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); */
+  border: 3px double rgba(255, 255, 255, 0.5);
+}
+
+.ted {
+  background: rgba(230, 43, 30, 1);
+}
+
+.connect {
+  background: #337ab7;
+}
+
+.left-quote {
+  font-size: 45px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.2);
+  left: 2px;
+  top: 6px;
+}
+
+.right-quote {
+  font-size: 40px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.2);
+  right: 8px;
+  top: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
+
+.footer-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  text-align: center;
+}
+
+.footer-wrapper .left {
+  border-right: 1px dotted white;
+}
+
+.footer-wrapper .left p {
+  width: 80%;
+  margin: 0 auto;
+}
