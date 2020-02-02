@@ -11,7 +11,8 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #fff;
-  font-family: 'Martel Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  /* font-family: 'Martel Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -22,7 +23,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Martel Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  /* font-family: 'Martel Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem - 0.14285714em) 0 1rem;
   font-weight: 700;
@@ -60,7 +62,7 @@ h5:last-child {
 }
 p {
   margin: 0 0 1em;
-  line-height: 1.4285em;
+  line-height: 1.5285em;
 }
 p:first-child {
   margin-top: 0;
